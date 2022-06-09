@@ -1,0 +1,10 @@
+.contenedor-img { 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagen-01 {
+    display: flex;
+    width: 300px;
+    padding: 5px;
+}
