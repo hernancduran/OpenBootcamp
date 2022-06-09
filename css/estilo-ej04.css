@@ -1,0 +1,17 @@
+h1 { color: turquoise; }
+
+ol { color: blueviolet; 
+    font-size: 18pt; 
+}
+
+ul {
+    color: tomato;
+}
+
+#elemento-1 {
+    color: red;
+}
+
+ul #elemento-1 {
+    font-size: 2rem;
+}
