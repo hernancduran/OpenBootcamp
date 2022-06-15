@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 18pt;
+    background-color: coral;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    transform: translateY(-5px);
+    box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.671);
+    background-color: chocolate;
+    color: white;
+    transition: all 0.4s;
+}
+
